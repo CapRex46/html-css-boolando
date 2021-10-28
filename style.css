@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.dress1 {
+    display: inline-block;
+    width: calc(1000px / 4 - 33px);
+    margin: 0 15px;
+    height: 300px;
+    border: 1px #ccc solid;
+    background: url("../html-css-boolando/img/1.webp");
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+
+.dress2 {
+    display: inline-block;
+    width: calc(1000px / 4 - 33px);
+    margin: 0 15px;
+    height: 300px;
+    border: 1px #ccc solid;
+    background: url("../html-css-boolando/img/2.webp");
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+
+.dress3 {
+    display: inline-block;
+    width: calc(1000px / 4 - 33px);
+    margin: 0 15px;
+    height: 300px;
+    border: 1px #ccc solid;
+    background: url("../html-css-boolando/img/3.webp");
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+.dress4 {
+    display: inline-block;
+    width: calc(1000px / 4 - 33px);
+    margin: 0 15px;
+    height: 300px;
+    border: 1px #ccc solid;
+    background: url("../html-css-boolando/img/4.webp");
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+.dress5 {
+    display: inline-block;
+    width: calc(1000px / 4 - 33px);
+    margin: 0 15px;
+    height: 300px;
+    border: 1px #ccc solid;
+    background: url("../html-css-boolando/img/5.webp");
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+
+.dress6 {
+    display: inline-block;
+    width: calc(1000px / 4 - 33px);
+    margin: 0 15px;
+    height: 300px;
+    border: 1px #ccc solid;
+    background: url("../html-css-boolando/img/6.webp");
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+.dress1:hover {
+    background-image: url("../html-css-boolando/img/1b.webp");
+}
+
+.dress6:hover {
+    background-image: url("../html-css-boolando/img/6b.webp");
+}
+
+
+.dress1 img {
+    width: 100%;
+    display: none;
+}
+
+.dress1:hover img{
+    display: block;
+}
+
+
+.hearths {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
