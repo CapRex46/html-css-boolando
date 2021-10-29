@@ -6,7 +6,7 @@
 
 
 .container {
-    width: 900px;
+    width: 750px;
     background-color: white;
     margin: 0 auto;
     margin-top: 15px;
@@ -163,5 +163,7 @@
 
 
 .infos{
-    position: absolute;
+    display: inline-block;
+    height: 600px;
+    
 }
